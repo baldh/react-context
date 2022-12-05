@@ -1,0 +1,23 @@
+:root {
+    --background: #ffffff;
+    --font-color: #000000;
+}
+
+[data-theme="dark"] {
+    --background: #2c2c3f;
+    --font-color: #fff;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+main {
+    min-height: 100vh;
+    background-color: var(--background);
+    color: var(--font-color);
+    transition: all 0.5s ease-in-out;
+}
+
